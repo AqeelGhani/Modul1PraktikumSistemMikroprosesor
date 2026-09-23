@@ -4,7 +4,7 @@
 #define Relay_Write 22
 
 unsigned long start_time, stop_time;
-unsigned short read=0;
+unsigned short reading=0;
 
 void setup(){
     pinMode(Relay_Read, INPUT_PULLUP);
@@ -14,15 +14,15 @@ void setup(){
 }
 
 void loop(){
-    if (read && digitalRead(Relay_Read)){
+    if (reading && digitalRead(Relay_Read)){
         stop_time = millis();
         Serial.print("Delay : ");
         Serial.print(stop_time-start_time);
         Serial.println(" ms");
-        read = 0;
+        reading = 0;
         digitalWrite(Relay_Write, LOW);
-    } else if (!read && !digitalRead(Relay_Read)){
-        read = 1;
+    } else if (!reading && !digitalRead(Relay_Read)){
+        reading = 1;
         digitalWrite(Relay_Write, HIGH);
         start_time = millis();
     }
