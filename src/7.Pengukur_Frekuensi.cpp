@@ -4,7 +4,7 @@
 
 int counter = 0;
 
-void count_interup();
+void IRAM_ATTR count_interup();
 
 void setup(){
     pinMode(input1, INPUT);
@@ -23,6 +23,6 @@ void loop(){
     counter = 0;
 }
 
-void count_interup(){
+void IRAM_ATTR count_interup(){
     counter++;
 }
