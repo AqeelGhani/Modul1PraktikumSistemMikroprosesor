@@ -3,8 +3,8 @@
 #define Relay_Read 25
 #define Relay_Write 22
 
-unsigned long start_time, stop_time;
-unsigned short reading=0;
+unsigned long start_time = 0 , stop_time = 0;
+unsigned short On=0;
 
 void setup(){
     pinMode(Relay_Read, INPUT_PULLUP);
@@ -14,15 +14,20 @@ void setup(){
 }
 
 void loop(){
-    if (reading && digitalRead(Relay_Read)){
+    if (On && digitalRead(Relay_Read)){
         stop_time = millis();
-        Serial.print("Delay : ");
+        Serial.print("Rising Delay : ");
         Serial.print(stop_time-start_time);
         Serial.println(" ms");
-        reading = 0;
+        On = 0;
         digitalWrite(Relay_Write, LOW);
-    } else if (!reading && !digitalRead(Relay_Read)){
-        reading = 1;
+        start_time = millis();
+    } else if (!On && !digitalRead(Relay_Read)){
+        stop_time = millis();
+        Serial.print("Falling Delay : ");
+        Serial.print(stop_time-start_time);
+        Serial.println(" ms");
+        On = 1;
         digitalWrite(Relay_Write, HIGH);
         start_time = millis();
     }
