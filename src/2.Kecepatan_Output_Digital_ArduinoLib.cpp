@@ -1,12 +1,12 @@
 #include <Arduino.h>
 
-#define LED_BUILTIN 22
+#define LED_PIN 22
 
 void setup(){
-    pinMode(LED_BUILTIN, OUTPUT);
+    pinMode(LED_PIN, OUTPUT);
 }
 
 void lopp(){
-    digitalWrite(LED_BUILTIN, HIGH);
-    digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(LED_PIN, HIGH);
+    digitalWrite(LED_PIN, LOW);
 }
