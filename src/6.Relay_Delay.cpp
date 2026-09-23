@@ -21,7 +21,7 @@ void loop(){
         Serial.println(" ms");
         read = 0;
         digitalWrite(Relay_Write, LOW);
-    } else if (!read){
+    } else if (!read && !digitalRead(Relay_Read)){
         read = 1;
         digitalWrite(Relay_Write, HIGH);
         start_time = millis();
