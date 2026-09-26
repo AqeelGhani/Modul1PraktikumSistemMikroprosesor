@@ -1,34 +1,59 @@
 #include <Arduino.h>
 
-#define Relay_Read 25
-#define Relay_Write 22
+#define RELAY_PIN 22
+#define FEEDBACK_PIN 25
 
-unsigned long start_time = 0 , stop_time = 0;
-unsigned short On=0;
+const unsigned long HALF_PERIOD = 500;
+const unsigned long TIMEOUT_MS = 200;
 
-void setup(){
-    pinMode(Relay_Read, INPUT_PULLUP);
-    pinMode(Relay_Write, OUTPUT);
-    Serial.begin(115200);
-    Serial.println("ESP32 Started");
+void waktuRespon(uint8_t targetState) {
+  bool validasiAwal = (digitalRead(FEEDBACK_PIN) != targetState);
+  
+  unsigned long startTime = millis();
+  digitalWrite(RELAY_PIN, targetState);
+  
+  bool isTimeout = false;
+  
+  while (digitalRead(FEEDBACK_PIN) != targetState) {
+    if (millis() - startTime >= TIMEOUT_MS) {
+      isTimeout = true;
+      break;
+    }
+  }
+  
+  unsigned long durasi = millis() - startTime;
+  
+  if (targetState == HIGH) {
+    Serial.print("Respon HIGH  : ");
+  } else {
+    Serial.print("Respon LOW : ");
+  }
+  
+  if (!validasiAwal) {
+    Serial.println("GAGAL - State awal tidak sesuai.");
+  } else if (isTimeout) {
+    Serial.println("TIMEOUT - Relay tidak merespons.");
+  } else {
+    Serial.print(durasi);
+    Serial.println(" ms");
+  }
+  while (millis() - startTime < HALF_PERIOD) {
+    delay(1);
+  }
 }
 
-void loop(){
-    if (On && digitalRead(Relay_Read)){
-        stop_time = millis();
-        Serial.print("Rising Delay : ");
-        Serial.print(stop_time-start_time);
-        Serial.println(" ms");
-        On = 0;
-        digitalWrite(Relay_Write, LOW);
-        start_time = millis();
-    } else if (!On && !digitalRead(Relay_Read)){
-        stop_time = millis();
-        Serial.print("Falling Delay : ");
-        Serial.print(stop_time-start_time);
-        Serial.println(" ms");
-        On = 1;
-        digitalWrite(Relay_Write, HIGH);
-        start_time = millis();
-    }
+void setup() {
+  Serial.begin(115200);
+  pinMode(RELAY_PIN, OUTPUT);
+  digitalWrite(RELAY_PIN, LOW);
+  
+  pinMode(FEEDBACK_PIN, INPUT_PULLDOWN);
+  Serial.println("ESP32 Started");
+  delay(1000);
+}
+
+void loop() {
+  waktuRespon(HIGH);
+  waktuRespon(LOW);
+  
 }

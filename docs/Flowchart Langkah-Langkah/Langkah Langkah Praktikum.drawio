@@ -1,0 +1,249 @@
+<mxfile host="Electron" pages="7">
+  <diagram name="Percobaan 1" id="-JWYfcBuifduuj6k1BDN">
+    <mxGraphModel dx="934" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8tw_6ab4AJHbvF3iX0Ww-4" edge="1" parent="1" source="8tw_6ab4AJHbvF3iX0Ww-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8tw_6ab4AJHbvF3iX0Ww-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8tw_6ab4AJHbvF3iX0Ww-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Compile code yang telah dibuat" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8tw_6ab4AJHbvF3iX0Ww-6" edge="1" parent="1" source="8tw_6ab4AJHbvF3iX0Ww-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8tw_6ab4AJHbvF3iX0Ww-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8tw_6ab4AJHbvF3iX0Ww-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Jalankan programnya di ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8tw_6ab4AJHbvF3iX0Ww-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Baca keluaran MAC Address dan ukur Vcc ESP32" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L_7x6xnp180xVN6cvVk6" name="Percobaan 2">
+    <mxGraphModel dx="934" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S4P06O2pOuxSlTZouECU-1" edge="1" parent="1" source="S4P06O2pOuxSlTZouECU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S4P06O2pOuxSlTZouECU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4P06O2pOuxSlTZouECU-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Compile code yang telah dibuat" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S4P06O2pOuxSlTZouECU-3" edge="1" parent="1" source="S4P06O2pOuxSlTZouECU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S4P06O2pOuxSlTZouECU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4P06O2pOuxSlTZouECU-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Jalankan programnya di ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="S4P06O2pOuxSlTZouECU-7" edge="1" parent="1" source="S4P06O2pOuxSlTZouECU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="S4P06O2pOuxSlTZouECU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4P06O2pOuxSlTZouECU-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ambilah data frekuensi terukur dan duty cycle dari osiloskop" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="S4P06O2pOuxSlTZouECU-8" edge="1" parent="1" source="S4P06O2pOuxSlTZouECU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="S4P06O2pOuxSlTZouECU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="560" />
+              <mxPoint x="365" y="560" />
+              <mxPoint x="365" y="20" />
+              <mxPoint x="425" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S4P06O2pOuxSlTZouECU-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ulangi dengan frekuensi CPU yang berbeda" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DJ8rkGn0MjSwL5eVJL_i" name="Percobaan 3">
+    <mxGraphModel dx="934" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-1" edge="1" parent="1" source="DY-1trrUoIo4Wd5E8zuA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DY-1trrUoIo4Wd5E8zuA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Compile code yang telah dibuat" vertex="1">
+          <mxGeometry height="80" width="80" x="388" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-3" edge="1" parent="1" source="DY-1trrUoIo4Wd5E8zuA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DY-1trrUoIo4Wd5E8zuA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Jalankan programnya di ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="388" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-5" edge="1" parent="1" source="DY-1trrUoIo4Wd5E8zuA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="DY-1trrUoIo4Wd5E8zuA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ambilah data frekuensi terukur dan duty cycle dari osiloskop" vertex="1">
+          <mxGeometry height="110" width="110" x="373" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-7" edge="1" parent="1" source="DY-1trrUoIo4Wd5E8zuA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DY-1trrUoIo4Wd5E8zuA-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="570" />
+              <mxPoint x="368" y="570" />
+              <mxPoint x="368" y="30" />
+              <mxPoint x="428" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DY-1trrUoIo4Wd5E8zuA-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ulangi dengan frekuensi CPU yang berbeda" vertex="1">
+          <mxGeometry height="80" width="80" x="388" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nq_qXfX01B5nmf0b14Wg" name="Percobaan 4">
+    <mxGraphModel dx="934" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_GAuhakprt8HbxvrTUR8-1" edge="1" parent="1" source="_GAuhakprt8HbxvrTUR8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_GAuhakprt8HbxvrTUR8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_GAuhakprt8HbxvrTUR8-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Compile code yang telah dibuat" vertex="1">
+          <mxGeometry height="80" width="80" x="388" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_GAuhakprt8HbxvrTUR8-3" edge="1" parent="1" source="_GAuhakprt8HbxvrTUR8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_GAuhakprt8HbxvrTUR8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_GAuhakprt8HbxvrTUR8-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Jalankan programnya di ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="388" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_GAuhakprt8HbxvrTUR8-5" edge="1" parent="1" source="_GAuhakprt8HbxvrTUR8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="_GAuhakprt8HbxvrTUR8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_GAuhakprt8HbxvrTUR8-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ambil data latency pulsa sebanyak 3 kali dan mencari rata ratanya" vertex="1">
+          <mxGeometry height="110" width="110" x="373" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_GAuhakprt8HbxvrTUR8-7" edge="1" parent="1" source="_GAuhakprt8HbxvrTUR8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_GAuhakprt8HbxvrTUR8-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="650" />
+              <mxPoint x="350" y="650" />
+              <mxPoint x="350" y="50" />
+              <mxPoint x="428" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GAuhakprt8HbxvrTUR8-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ulangi dengan frekuensi input yang berbeda hingga menemukan frekuensi melewati batas" vertex="1">
+          <mxGeometry height="130" width="130" x="363" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tZjglxd3RdN0qFfd7Uph" name="Percobaan 5">
+    <mxGraphModel dx="934" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-1" edge="1" parent="1" source="IjJROOwgQV-lXvqdrNhr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IjJROOwgQV-lXvqdrNhr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Compile code yang telah dibuat" vertex="1">
+          <mxGeometry height="80" width="80" x="392" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-3" edge="1" parent="1" source="IjJROOwgQV-lXvqdrNhr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IjJROOwgQV-lXvqdrNhr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Jalankan programnya di ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="392" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-5" edge="1" parent="1" source="IjJROOwgQV-lXvqdrNhr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="IjJROOwgQV-lXvqdrNhr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ambil data latency pulsa sebanyak 3 kali dan mencari rata ratanya" vertex="1">
+          <mxGeometry height="110" width="110" x="377" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-7" edge="1" parent="1" source="IjJROOwgQV-lXvqdrNhr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IjJROOwgQV-lXvqdrNhr-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="710" />
+              <mxPoint x="354" y="710" />
+              <mxPoint x="354" y="110" />
+              <mxPoint x="432" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IjJROOwgQV-lXvqdrNhr-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ulangi dengan frekuensi input yang berbeda hingga menemukan frekuensi melewati batas" vertex="1">
+          <mxGeometry height="130" width="130" x="367" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eP4W0dNrvzhQ_2PurwPZ" name="Percobaan 6">
+    <mxGraphModel dx="934" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7ljwVQ0wqNSZt21r8Umu-2" edge="1" parent="1" source="7ljwVQ0wqNSZt21r8Umu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7ljwVQ0wqNSZt21r8Umu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ljwVQ0wqNSZt21r8Umu-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Jalankan programnya di ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7ljwVQ0wqNSZt21r8Umu-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ambil data delay relay dari osiloskop dan software yang telah dibuat sebelumnya" vertex="1">
+          <mxGeometry height="110" width="110" x="370" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="yVmOtFa2thMRVNa822rL-1" edge="1" parent="1" source="7ljwVQ0wqNSZt21r8Umu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7ljwVQ0wqNSZt21r8Umu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7ljwVQ0wqNSZt21r8Umu-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Compile code yang telah dibuat&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yVmOtFa2thMRVNa822rL-3" edge="1" parent="1" source="yVmOtFa2thMRVNa822rL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7ljwVQ0wqNSZt21r8Umu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yVmOtFa2thMRVNa822rL-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Rangkai rangkaian relay di kit ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="385" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kCYssDYJcPDdvUrlyWrG" name="Percobaan 7">
+    <mxGraphModel dx="934" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-1" edge="1" parent="1" source="ev0B_DVK_Bw1NFAgASNa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ev0B_DVK_Bw1NFAgASNa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Compile code yang telah dibuat" vertex="1">
+          <mxGeometry height="80" width="80" x="378" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-3" edge="1" parent="1" source="ev0B_DVK_Bw1NFAgASNa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ev0B_DVK_Bw1NFAgASNa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Jalankan programnya di ESP32" vertex="1">
+          <mxGeometry height="80" width="80" x="378" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-5" edge="1" parent="1" source="ev0B_DVK_Bw1NFAgASNa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ev0B_DVK_Bw1NFAgASNa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ambil data frekuensi terukur" vertex="1">
+          <mxGeometry height="110" width="110" x="363" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-7" edge="1" parent="1" source="ev0B_DVK_Bw1NFAgASNa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ev0B_DVK_Bw1NFAgASNa-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="640" />
+              <mxPoint x="340" y="640" />
+              <mxPoint x="340" y="40" />
+              <mxPoint x="418" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ev0B_DVK_Bw1NFAgASNa-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ulangi dengan frekuensi input yang berbeda hingga menemukan frekuensi melewati batas" vertex="1">
+          <mxGeometry height="130" width="130" x="353" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
